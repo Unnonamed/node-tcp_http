@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const oHost = '192.168.10.14';
 const oPort = '7579'
 const bodytype = 'json';
-const ofarmPath = '/elsys/gateway/catm1';         
+const ofarmPath = '/-----/gateway/catm1';         
 var req_cnt = 0;
 
 var server = net_server.createServer(function(client) {

@@ -7,7 +7,7 @@ function http_request() {
   const options = {
     hostname: '192.168.10.14',
     port: 7579,
-    path: '/elsys/gateway/catm1',
+    path: '/-----/gateway/catm1',
     method: 'POST',
     headers: {
         'Accept': 'application/json',
